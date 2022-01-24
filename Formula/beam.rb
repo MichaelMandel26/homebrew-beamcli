@@ -1,8 +1,5 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Beam < Formula
-  desc "A fuzzy finder interface on top of the Teleport CLI."
+  desc "a fuzzy finder interface on top of the Teleport CLI"
   homepage "https://github.com/MichaelMandel26/beam"
   url "https://github.com/MichaelMandel26/beam/archive/v0.2.9.tar.gz"
   sha256 "cb417b8bcfa5c7a83aebde412eb121b4a4a289b583cd009a753381e4c6623114"
