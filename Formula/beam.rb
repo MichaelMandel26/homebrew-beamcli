@@ -7,7 +7,7 @@ class Beam < Formula
 
   depends_on "rust" => :build
   depends_on "teleport"
-  
+
   def install
     system "cargo", "install", *std_cargo_args
   end
