@@ -2,7 +2,7 @@ class Beam < Formula
   desc "Enhance your teleport workflow with a fuzzy finder interface"
   homepage "https://github.com/MichaelMandel26/beam"
   url "https://github.com/MichaelMandel26/beam/archive/v0.2.10.tar.gz"
-  sha256 "cb417b8bcfa5c7a83aebde412eb121b4a4a289b583cd009a753381e4c6623114"
+  sha256 "9f5243cd58c9b6243996826d273d2118333133041a106f153550f9ee882ad288"
   license "MIT"
 
   depends_on "rust" => :build
