@@ -16,6 +16,13 @@ class Beam < Formula
 
   def install
     system "cargo", "install", *std_cargo_args
+
+    bash_output = Utils.safe_popen_read(bin/"beam", "completions", "bash")
+    (bash_completion/"beam").write bash_output
+    zsh_output = Utils.safe_popen_read(bin/"beam", "completions", "zsh")
+    (zsh_completion/"_beam").write zsh_output
+    fish_output = Utils.safe_popen_read(bin/"beam", "completions", "fish")
+    (fish_completion/"beam.fish").write fish_output
   end
 
   test do
