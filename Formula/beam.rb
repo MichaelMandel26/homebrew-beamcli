@@ -6,10 +6,9 @@ class Beam < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/MichaelMandel26/homebrew-beamcli/releases/download/beam-0.3.1"
-    sha256 cellar: :any_skip_relocation, arm64_monterey: "94238b4a4f26f59ae98fbefeec85af4e8470832f31d5563f9d56832076b5a98d"
-    sha256 cellar: :any_skip_relocation, big_sur:        "552ac8bbfb1a993ced1390dfd807da34fcd863aa50b058b78c1af7c1903b08c8"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:   "d35aea4869e873aa6c43a64baa33c26543f4ebb78fd39bd1399535dfc11e1b1b"
+    root_url "https://github.com/MichaelMandel26/homebrew-beamcli/releases/download/beam-0.4.0"
+    sha256 cellar: :any_skip_relocation, big_sur:      "43f02ed9128f4bcb7bbfdcbf1170171aa942f80b75c6f2365f14b97eb045496a"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "f08642edb153d5181fed85cd7ed2ffd5e7b0676727af3f100aaabe19c197036f"
   end
 
   depends_on "rust" => :build
