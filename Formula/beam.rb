@@ -7,8 +7,9 @@ class Beam < Formula
 
   bottle do
     root_url "https://github.com/MichaelMandel26/homebrew-beamcli/releases/download/beam-0.4.0"
-    sha256 cellar: :any_skip_relocation, big_sur:      "43f02ed9128f4bcb7bbfdcbf1170171aa942f80b75c6f2365f14b97eb045496a"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "f08642edb153d5181fed85cd7ed2ffd5e7b0676727af3f100aaabe19c197036f"
+    sha256 cellar: :any_skip_relocation, arm64_monterey: "6596ae6025f4f674c38e0fa32614bb88559047a29927a0adabb5147160079493"
+    sha256 cellar: :any_skip_relocation, big_sur:        "43f02ed9128f4bcb7bbfdcbf1170171aa942f80b75c6f2365f14b97eb045496a"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:   "f08642edb153d5181fed85cd7ed2ffd5e7b0676727af3f100aaabe19c197036f"
   end
 
   depends_on "rust" => :build
