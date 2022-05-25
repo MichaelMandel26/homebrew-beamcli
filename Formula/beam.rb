@@ -1,8 +1,8 @@
 class Beam < Formula
   desc "Enhance your teleport workflow with a fuzzy finder interface"
   homepage "https://github.com/MichaelMandel26/beam"
-  url "https://github.com/MichaelMandel26/beam/archive/refs/tags/v0.4.3.tar.gz"
-  sha256 "99e5910a9d024a5f32b79443de4b43b0b8a43e643ea793cf2bafb424f9377905"
+  url "https://github.com/MichaelMandel26/beam/archive/refs/tags/v0.4.5.tar.gz"
+  sha256 "73870c5ee2d5bb2b9e33c296f70fc422afd91eff449be6bf544fcc3e7259864b"
   license "MIT"
 
   bottle do
